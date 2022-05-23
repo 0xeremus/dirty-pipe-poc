@@ -4,7 +4,7 @@ This repo is based of the Vulnerability, Writeup and Exploit produced by Max Kel
 
 Just like everyone I had to take advantage of playing with the worlds most trivial to repro Priv Esc the blog post does a great job of explaining it all.
 
-I translated the exploit into python simply to get a better feel for it, but this is an exact copy of the C exploit.
+I translated the exploit into python simply to get a better feel for it, but this is an exact copy of the C exploit with the Sudo Priv esc hardcoded in.
 
 ## Requires
 Python 3.10 (due to use of os.splice call)
